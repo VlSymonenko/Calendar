@@ -1,0 +1,12 @@
+{{# each events}}
+  <div class="row">
+    {{# each this }}
+      <div class="card col-sm-6 col-md-4" style="width: 18rem;">
+          <div>
+              ${{this.data}}
+          </div>
+        </div>
+      </div>
+      {{/each}}
+  </div>
+  {{/each}}

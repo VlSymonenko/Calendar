@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+    <h1>Find your event!</h1>
+    <h2>Here is your filters</h2>
+    <form action="/user/event" method="post">
+        <div class="form-group">
+            <label for="fromDate">Start date</label>
+            <input type="text" id="fromDate" name="fromDate" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="toDate">End date</label>
+            <input type="text" id="toDate" name="toDate" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="fromTime">Start Time</label>
+            <input type="text" id="fromTime" name="fromTime" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="toTime">End Time</label>
+            <input type="text" id="toTime" name="toTime" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="fromDay">Start day</label>
+            <input type="text" id="fromDay" name="fromDay" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="toDate">End date</label>
+            <input type="text" id="toDate" name="toDate" class="form-control">
+        </div>
+        <input type="hidden" name="_csrf" value="">
+        <button type="submit" class="btn btn-primary">Find Event</button>
+    </form>
+    </form>
+  </div>
+</div>
